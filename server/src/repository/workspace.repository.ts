@@ -32,6 +32,7 @@ export function findWorkspacesByUserId(userId: string) {
     });
 }
 
+//Retrieves a specific workspace after verifying that it belongs to the logged-in user.
 export function findWorkspaceByIdAndUserId(
     workspaceId: string,
     userId: string,
