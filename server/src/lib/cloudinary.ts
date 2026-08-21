@@ -26,7 +26,7 @@ type CloudinaryUploadResponse = {
     error?: { message: string };
 };
 
-
+// link to download files or pdf
 export function getSignedCloudinaryDownloadUrl(
     publicId: string,
     resourceType: "raw" | "image" = "raw",
