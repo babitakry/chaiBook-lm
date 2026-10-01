@@ -85,4 +85,4 @@ export const summarizeConversation = inngest.createFunction(
         return { conversationId, status: "SUMMARIZED" };
     },
 );
-export const functions = [processSource ];
+export const functions = [processSource, summarizeConversation];
