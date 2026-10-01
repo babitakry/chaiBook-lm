@@ -7,7 +7,6 @@ import { inngest } from "../inngest/client.js";
  *
  * @param input - Source and workspace ids for the processing worker
  * @returns Resolves when the event is accepted by Inngest
- *
  */
 export async function enqueueSourceProcessing(input: {
     sourceId: string;
